@@ -1,5 +1,25 @@
 [class^='container'],[class^='col']{
   border: 1px solid;
   background-color: rgba(210, 105, 30, 0.459);
-  min-height: 100px;
+}
+
+:root{
+  --green-light:rgb(26, 188, 156);
+}
+
+header{
+  height: 60px;
+background-color: rgb(44, 62, 80);
+}
+
+main{
+  background-color: var(--green-light);
+}
+
+.heros{
+  height: ;
+}
+
+.debug{
+  background-color: var(--green-light);
 }
