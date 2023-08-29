@@ -1,0 +1,5 @@
+[class^='container'],[class^='col']{
+  border: 1px solid;
+  background-color: rgba(210, 105, 30, 0.459);
+  min-height: 100px;
+}
