@@ -12,14 +12,20 @@ header{
 background-color: rgb(44, 62, 80);
 }
 
-main{
-  background-color: var(--green-light);
-}
+
 
 .heros{
-  height: ;
+  min-height:500px ;
+  background-color: var(--green-light)
 }
 
 .debug{
-  background-color: var(--green-light);
+  background-color:rgba(255, 0, 0, 0.74);
+  min-height: 500px;
+}
+
+.debug2{
+  background-color:rgba(16, 133, 141, 0.74);
+  min-height:355px;
+  border: 1px solid black;
 }
