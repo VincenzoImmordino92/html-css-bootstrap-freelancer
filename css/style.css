@@ -5,6 +5,10 @@
 
 :root{
   --green-light:rgb(26, 188, 156);
+
+  --blue-dark:rgb(44, 62, 80);
+
+  --dark-blue:rgb(58, 84, 109);
 }
 
 header{
@@ -12,12 +16,20 @@ header{
 background-color: rgb(44, 62, 80);
 }
 
-
-
 .heros{
   min-height:500px ;
   background-color: var(--green-light)
 }
+
+.dark-blue{
+background-color: var(--dark-blue);
+}
+
+.blue-dark{
+  background-color: var(--blue-dark);
+}
+
+
 
 .debug{
   background-color:rgba(255, 0, 0, 0.74);
@@ -28,4 +40,11 @@ background-color: rgb(44, 62, 80);
   background-color:rgba(16, 133, 141, 0.74);
   min-height:355px;
   border: 1px solid black;
+}
+
+.circle{
+  border: 1px solid black;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
 }
