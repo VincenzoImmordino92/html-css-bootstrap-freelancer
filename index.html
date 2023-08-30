@@ -30,6 +30,7 @@
 
   <main>
     <section class="heros">
+      <div class="container">
       <div class="row flex-column">
         <div class="debug col col-md-8 m-auto col-xl-8   text-center ">
           foto
@@ -42,11 +43,19 @@
           <p>graphic artist - webdesigner - illustrator</p>
         </div>
       </div>
+    </div>
     </section>
 
-    <section>
-      <div class="container">
-        <div class="row  row-cols-1 row-cols-md-2 row-cols-xl-3 m-2 p-2">
+    <section id="portfolio" class="py-5">
+      <div class="container text-center mb-4">
+        <div class="section-top">
+        <h2>portfolio</h2>
+        <div class="star">star</div>
+        </div>
+      </div>
+
+        <div class="container">
+        <div class="row  row-cols-1 row-cols-md-2 row-cols-xl-3">
           <div class="col col-md-6 col-xl-4 debug2">1</div>
           <div class="col col-md-6 col-xl-4 debug2">2</div>
           <div class="col col-md-6 col-xl-4 debug2">3</div>
@@ -57,15 +66,32 @@
       </div>
     </section>
 
-    <section class="heros">
-      <div class="container">
-        <div class="row row-cols-2 row-cols-md-1 flex-column align-items-center ">
-          <div class="col-11 col-md-4">ciao</div>
-          <div class="col-8 col-md-8 d-md-flex">
-            <div class="col-11 col-md-6 ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium rem quod eligendi qui nihil facilis distinctio sint officia tempore, dolore voluptas, ullam, eius officiis alias? Nihil laborum maxime commodi corrupti.</div>
-            <div class="col-11 col-md-6 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, obcaecati? Recusandae voluptatibus nisi sunt omnis reprehenderit assumenda nobis eum sequi itaque fuga. Culpa quaerat sapiente perferendis nihil, id voluptas maxime.</div>
+    <section id="about" class="heros py-5">
+      <div class="container text-center mb-4">
+
+        <div class="container text-center mb-4">
+          <div class="section-top">
+          <h2>about</h2>
+          <div class="star">star</div>
           </div>
-          <div class="col-11 col-md-12">bottone</div>
+        </div>
+        
+        <div class="container-fluid">
+        <div class="row row-cols-2 row-cols-md-1 flex-column align-items-center ">
+          <div class="col d-md-flex">
+            <div class="col">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora officiis rem fuga, consequuntur ab voluptate ut unde! Unde deserunt ad nostrum ratione non ullam quas itaque quo esse dignissimos minima est, cupiditate quasi labore. Deserunt cumque ad voluptates reiciendis! Voluptas. cupiditate quasi labore. Deserunt cumque ad voluptates reiciendis! Voluptas. cupiditate quasi labore. Deserunt cumque ad voluptates reiciendis! Voluptas.
+            </div>
+
+            <div class="col">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora officiis rem fuga, consequuntur ab voluptate ut unde! Unde deserunt ad nostrum ratione non ullam quas itaque quo esse dignissimos minima est, cupiditate quasi labore. Deserunt cumque ad voluptates reiciendis! Voluptas. cupiditate quasi labore. Deserunt cumque ad voluptates reiciendis! Voluptas. cupiditate quasi labore. Deserunt cumque ad voluptates reiciendis! Voluptas.
+
+            </div>
+          </div>
+
+          <div>
+            <button type="button" class="buttom-vd btn btn-outline-secondary ">Download</button>
+            </div>
+        
+        </div>
         </div>
       </div>
     </section>
@@ -76,15 +102,34 @@
           <div class="col-11 text-md-center">contact me</div>
           <div class="col-11 text-md-center">disegno</div>
           <div class="col-11">
-            <div class="row flex-column">
-              <div class="col">name</div>
-              <div class="col">email address</div>
-              <div class="col">phone number</div>
-              <div class="col">message</div>
+
+            <div class="mb-3">
+              <label for="Name" class="form-label"></label>
+              <input type="text" class="form-control" id="name" placeholder="Name">
             </div>
-          </div>
-          <div class="col-11">send-bootone</div>
+
+            <div class="mb-3">
+              <label for="Email Address" class="form-label"></label>
+              <input type="text" class="form-control" id="Email Address" placeholder="Email Address">
+            </div>
+
+            <div class="mb-3">
+              <label for="Phone Numer" class="form-label"></label>
+              <input type="text" class="form-control" id="Phone Numer" placeholder="Phone Numer">
+            </div>
+            
+            <div class="mb-3">
+              <label for="message" class="form-label"></label>
+              <textarea class="form-control" id="message" rows="8" cols="80" placeholder="Message"></textarea>
+            </div>
+            
+            <div>
+            <button type="button" class="btn btn-secondary button-vv">Send</button>
+            </div>
         </div>
+            
+        
+      </div>
       </div>
     </section>
 

@@ -48,3 +48,23 @@ background-color: var(--dark-blue);
   height: 80px;
   border-radius: 50%;
 }
+
+.button-vv{
+  background-color:rgb(26, 188, 156);
+}
+
+.button-vd{
+  background-color:rgb(255, 255, 255);
+  color: white;
+  border-color: white;
+}
+
+.button-vv:hover{
+  background-color: white;
+  color: black;
+}
+
+.button-vv:hover{
+  background-color:rgba(26, 188, 156, 0.856);
+  color: white;
+}
